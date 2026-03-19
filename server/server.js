@@ -18,7 +18,7 @@ app.use(helmet({
 // 2. CORS SETUP (The Fix)
 // This tells the server to allow requests specifically from your frontend port (8080)
 app.use(cors({
-    origin: ["http://localhost:8080", "http://localhost:5173","https://sushmafashions.netlify.app/"], // Add your local ports here
+    origin: ["http://localhost:8080", "http://localhost:5173","https://sushmafashions.netlify.app"], // Add your local ports here
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
