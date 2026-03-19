@@ -144,7 +144,7 @@ const Login = () => {
                 </svg>
               </div>
               <h1 className="text-2xl font-bold text-white bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
-                Kishor Boutique
+                Sushma Boutique & Fashions
               </h1>
             </div>
             <CardHeader className="p-0 relative z-10">
